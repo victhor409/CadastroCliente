@@ -23,15 +23,15 @@
 </head>
 
 <%
-String idString = request.getParameter("id");
+
+
+
 String nome = request.getParameter("nome");
 String endereco = request.getParameter("endereco");
 String valorContratoString = request.getParameter("valorContrato");
 String ativoString = request.getParameter("ativo");
 
-//BigDecimal valorContrato = new BigDecimal(valorContrato);
-//Integer id = Integer.parseInt(idString);
-//boolean ativo = Boolean.parseBoolean(ativoString);
+
 
 %>
 
@@ -44,10 +44,8 @@ String ativoString = request.getParameter("ativo");
 		
 		
 			<div class="mb-3 mt-3">
-			 <input type="hidden"
-					class="form-control" id="id"  name="id" value="1" >
-			</div>
-		
+			
+
 		
 			<div class="mb-3 mt-3">
 				<label for="email">Nome:</label> <input type="text"

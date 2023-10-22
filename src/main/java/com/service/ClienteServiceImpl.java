@@ -25,8 +25,19 @@ public class ClienteServiceImpl implements ClienteService{
 
 	@Override
 	public List<Cliente> findAll() {
-	
-		return null;
+		
+		List<Cliente> findAll = null;
+		
+		try {
+			findAll = dao.read();
+			
+			return findAll;
+		}catch(Exception e) {
+			e.getStackTrace();
+			return null;
+		}
+		
+		
 	}
 
 	@Override

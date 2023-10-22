@@ -1,0 +1,5 @@
+com/model/Cliente.class
+com/service/ClienteServiceImpl.class
+com/service/ClienteService.class
+controller/ClienteController.class
+com/model/ClienteDAO.class

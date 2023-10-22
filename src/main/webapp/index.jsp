@@ -21,8 +21,11 @@
 
 		<div class="container mt-3">
 
-			<a href="./cadastroCliente.jsp" class="btn btn-success">Cadastrar
-				Clientes</a>
+			<a href="./cadastroCliente.jsp" class="btn btn-success">Cadastrar Clientes</a><br>
+				
+			<a href="read" class="btn btn-success" >Consultar Clientes</a>
+				
+			
 
 		</div>
 
